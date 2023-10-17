@@ -13,7 +13,8 @@ pip install nbdev_test
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+Testing nbdev capabilities, especially documentation, version control of
+notebooks, and code tests
 
 ``` python
 1+1
