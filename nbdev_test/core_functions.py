@@ -7,7 +7,7 @@ __all__ = ['read_image', 'say_hello']
 def read_image(filename): 
     "Read individual image from file and return image and metadata."
     image = ''
-    metadat = ''
+    metadata = ''
     return image, metadata
 
 # %% ../nbs/00_core_functions.ipynb 4
