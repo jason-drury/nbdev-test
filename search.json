@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "core_functions.html",
+    "href": "core_functions.html",
+    "title": "core_functions",
+    "section": "",
+    "text": "source\n\nread_image\n\n read_image (filename)\n\nRead individual image from file and return image and metadata.\n\nsource\n\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\") == \"Hello Hamel!\"\n\n\nfrom fastcore.test import *\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nfrom IPython.display import display,SVG\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"50\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))\n\n\n\n\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\no = HelloSayer(\"Alexis\")\no.say()\n\n'Hello Alexis!'"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-test",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-test",
+    "section": "Install",
+    "text": "Install\npip install nbdev_test"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-test",
+    "section": "How to use",
+    "text": "How to use\nTesting nbdev capabilities, especially documentation, version control of notebooks, and code tests\n\n1+1\n\n2"
+  }
+]
